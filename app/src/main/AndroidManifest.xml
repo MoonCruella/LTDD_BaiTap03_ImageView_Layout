@@ -16,13 +16,13 @@
             android:name=".RegisterActivity"
             android:exported="false" />
         <activity
-            android:name=".LinerActivity"
-            android:exported="false" />
-        <activity
             android:name=".LoginActivity"
             android:exported="false" />
         <activity
             android:name=".SwitchActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LinerActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
